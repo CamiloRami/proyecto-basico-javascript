@@ -1,4 +1,4 @@
-# proyecto-basico-javascript
+# proyectos-basicos-javascript
 
 ...
 
