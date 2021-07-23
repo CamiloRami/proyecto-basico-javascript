@@ -51,3 +51,21 @@ var perimetroCirculo = radio => Math.round(diametroCirculo(radio) * PI * 10) / 1
 var areaCirculo = radio => Math.round((radio ** 2) * PI * 10) / 10;
 
 console.groupEnd();
+
+
+//Interaccion con HTML
+
+function calcularPerimetroCuadrado() {
+    const input = document.getElementById("inputCuadrado");
+    const value = input.value;
+
+    const perimetro = perimetroCuadrado(value);
+    alert(perimetro)
+}
+function calcularAreaCuadrado() {
+    const input = document.getElementById("inputCuadrado");
+    const value = input.value;
+
+    const area = areaCuadrado(value);
+    alert(area)
+}
