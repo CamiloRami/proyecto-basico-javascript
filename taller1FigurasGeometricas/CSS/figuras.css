@@ -128,25 +128,27 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 form div {
     margin: 0 auto;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     height: 25px;
     background-color: #ffffff21;    
     border-radius: 10rem;
     border: 1px solid #ffffff3f;
+    max-width: 296px;
 }
 form div:hover {
     box-shadow: 0 0.1rem 0.6rem 0 #20212447;
     border-color: #dfe1e500;
 }
 section  .botton-container {
-    justify-content: space-around;
-    margin-top: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
     background: none;    
     border-radius: 0;
     border: none;
+    max-width: 260px;
 }
 form .botton-container:hover {
     box-shadow: none;
@@ -172,7 +174,7 @@ section span {
     padding-left: 10px;
     padding-top: 2px;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-content: center;
     font-size: 1.6rem;
     font-weight: 300;
