@@ -1,0 +1,184 @@
+/* Basico */
+
+:root {
+    /*Colores*/
+    --blanco: #F2EFEA;
+
+    --berenjena: #403D58;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+body {
+    background-color: var(--blanco);
+}
+/* Header */
+
+header {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: 333px;
+    text-align: center;
+    background-color: var(--berenjena);
+    margin-bottom: 50px;
+}
+header img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 280px;
+}
+header h1 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--blanco);
+    margin-bottom: 15px;
+}
+header p {
+    color: var(--blanco);
+    margin-bottom: 7px;
+    font-weight: 300;
+}
+header span {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    right: 2px;
+    background-image: url(../Accets/GitHub.png);
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header p a {
+    color: var(--blanco);
+    cursor: none;
+    text-decoration: none;
+}
+
+/* Secciones */
+
+section {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: var(--berenjena);
+    border-radius: 5px;
+    color: var(--blanco);
+}
+section h2 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 7px;
+    position: absolute;
+}
+section img {
+    width: 50px;
+    display: inline-block;
+}
+section .div-figuras {
+    position: relative;
+    margin-bottom: 10px;
+}
+section p {
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+form input {
+    border: none;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    background-color: #ffffff00;
+    height: 25px;
+    width: 100%;
+    color: var(--blanco);
+    align-items: center;
+}
+input::placeholder {
+    color: #f2efeaa1;
+    /* font-size: 1.5em; */
+  }
+form label {
+    width: 90%;
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+form div {
+    margin: 0 auto;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 25px;
+    background-color: #ffffff21;    
+    border-radius: 10rem;
+    border: 1px solid #ffffff3f;
+}
+form div:hover {
+    box-shadow: 0 0.1rem 0.6rem 0 #20212447;
+    border-color: #dfe1e500;
+}
+section  .botton-container {
+    justify-content: space-around;
+    margin-top: 10px;
+    background: none;    
+    border-radius: 0;
+    border: none;
+}
+form .botton-container:hover {
+    box-shadow: none;
+    border: none;
+}
+section  .botton-container button {
+    display: block;
+    height: 25px;
+    width: 125px;
+    border: 1px solid #ffffff3f;
+    background-color: #ffffff21;
+    border-radius: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--blanco);
+}
+section  .botton-container button:hover {
+    box-shadow: 0 0.1rem 0.6rem 0 #20212447;
+    border-color: #dfe1e500;
+}
+section span {
+    margin: 0 auto;
+    margin-bottom: 7px;
+    padding-left: 10px;
+    padding-top: 2px;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    width: 70%;
+    height: 25px;
+    background-color: #ffffff21;    
+    border-radius: 10rem;
+    border: 1px solid #ffffff3f;
+}
