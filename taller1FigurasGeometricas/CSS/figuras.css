@@ -49,13 +49,14 @@ header p {
     color: var(--blanco);
     margin-bottom: 7px;
     font-weight: 300;
+    font-size: 1.4rem;
 }
 header span {
     display: inline-block;
     position: relative;
     top: 2px;
     right: 2px;
-    background-image: url(../Accets/GitHub.png);
+    background-image: url(../assets/GitHub.png);
     width: 15px;
     height: 15px;
     background-size: cover;

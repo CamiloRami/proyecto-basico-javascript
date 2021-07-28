@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/descuentos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Porcentajes y descuentos | Proyectos básicos de JavaScript</title>
+</head>
+<body>
+    <header>
+        <span id="idspan">
+            %
+        </span>
+        <div>
+            <h1>
+                Porcentajes y descuentos
+            </h1>
+            <p>
+                Segundo taller de proyectos-basicos-javascript
+            </p>
+            <p>
+                Created by:
+            </p>
+            <p>
+                <span></span><a href="https://github.com/CamiloRami">CamiloRami</a>
+            </p>
+        </div>  
+    </header>
+    <main>
+        <section>
+            <h2>
+                Calcula el precio a pagar de tus productos con descuento
+            </h2>
+            <form>
+                <label for="InputPrice">
+                    <span>Escribe el precio de tu producto:</span>
+                    <input type="number" id="InputPrice">
+                </label>
+
+                <label for="InputDiscount">
+                    <span>Escribe el descuento de tu producto:</span>
+                    <input type="number" id="InputDiscount">
+                </label>
+
+                <button type="button" onclick="onClickButtonPriceDiscount()">
+                    Calcular precio con descuento
+                </button>
+            </form>
+            <span id="Output"></span>
+        </section>
+    </main>
+
+    <script src="./descuentos.js"></script>
+</body>
+</html>

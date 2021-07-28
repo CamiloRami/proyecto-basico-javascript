@@ -1,0 +1,145 @@
+:root {
+    /* Colores */
+    --azul: #102542;
+    --pomelo: #F87060;
+    --blanco: #F2EFEA;
+    --gris: #CDD7D6;
+}
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+
+}
+body {
+    background-color: var(--blanco);
+}
+/* header */
+
+header {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 320px;
+    min-height: 336px;
+    text-align: center;
+    background-color: var(--azul);
+    margin-bottom: 50px;
+    color: var(--blanco);
+}
+header p {
+    color: var(--blanco);
+    margin-bottom: 7px;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+header p span {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    right: 2px;
+    background-image: url(../assets/GitHub.png);
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header p a {
+    color: var(--blanco);
+    cursor: none;
+    text-decoration: none;
+}
+header h1 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--blanco);
+    margin-bottom: 15px;
+}
+#idspan {
+    font-size: 16rem;
+    font-weight: 700;
+}
+
+/* Secciones */
+
+section {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: var(--azul);
+    border-radius: 5px;
+    color: var(--blanco);
+}
+section h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+form span, form input{
+    margin: 0 auto;
+    display: block;
+}
+form span {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 10px 0 ;
+}
+form button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    border: none;
+    outline: none;
+    min-height: 28px;
+    width: 75%;
+    background-color: #ffffff21;
+    border-radius: 44444px;
+    border: 1px solid #ffffff3f;
+    color: var(--blanco);
+
+}
+form input{
+    border: none;
+    outline: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+    font-weight: 300;
+    background-color: #ffffff21;
+    height: 28px;
+    width: 90%;
+    color: var(--blanco);
+    align-items: center;
+    text-align: center;
+    border-radius: 44444px;
+    border: 1px solid #ffffff3f;
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+#Output {
+    margin: 0 auto;
+    margin-bottom: 7px;
+    /* padding-left: 10px; */
+    /* padding-top: 2px; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    width: 75%;
+    height: 25px;
+    background-color: #ffffff21;
+    border-radius: 10rem;
+    border: 1px solid #ffffff3f;
+}
