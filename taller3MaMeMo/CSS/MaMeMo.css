@@ -1,0 +1,149 @@
+:root {
+    /*Colores*/
+    --blanco: #F2EFEA;
+
+    --marino: #3B6064;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: var(--blanco);
+}
+header {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 320px;
+    /* height: 333px; */
+    text-align: center;
+    background-color: var(--marino);
+    margin-bottom: 50px;
+    color: var(--blanco);
+}
+header img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 140px;
+}
+header h1 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--blanco);
+    margin-bottom: 15px;
+}
+header p {
+    color: var(--blanco);
+    margin-bottom: 7px;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+header span {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    right: 2px;
+    background-image: url(../assets/GitHub.png);
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header p a {
+    color: var(--blanco);
+    cursor: none;
+    text-decoration: none;
+}
+
+/* section */
+
+section {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: var(--marino);
+    border-radius: 5px;
+    color: var(--blanco);
+}
+section h2, section p, section input, section button {
+    display: block;
+    margin: 0% auto;
+    text-align: center;
+}
+section h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+form span {
+    display: block;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 10px 0;
+}
+form input {
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    background-color: #ffffff21;
+    height: 100px;
+    width: 90%;
+    color: var(--blanco);
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ffffff3f;
+}
+input::placeholder {
+    color: #f2efeaa1;
+    /* font-size: 1.5em; */
+}
+form button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    border: none;
+    outline: none;
+    min-height: 32px;
+    width: 75%;
+    max-width: 191.5px;
+    background-color: #ffffff21;
+    border-radius: 44444px;
+    border: 1px solid #ffffff3f;
+    color: var(--blanco);
+    font-size: 1.6rem;
+}
+#outputMa, #outputMe, #outputMo {
+    margin: 0 auto;
+    margin-bottom: 7px;
+    /* padding-left: 10px; */
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    width: 75%;
+    height: 32px;
+    background-color: #ffffff21;
+    border-radius: 10rem;
+    border: 1px solid #ffffff3f;
+}

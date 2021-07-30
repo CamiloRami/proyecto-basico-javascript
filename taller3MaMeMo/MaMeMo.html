@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/MaMeMo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/desktop.css" media="(min-width: 1440px)">
+    <title>Media aritmética, mediana y moda | Proyectos básicos de JavaScript</title>
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="./assets/ETpicture.png" alt="grafica">
+        </picture>
+        <h1>
+            Media aritmética, mediana y moda
+        </h1>
+        <p>
+            Tercer taller de proyectos-basicos-javascript
+        </p>
+        <p>
+            Created by: 
+        </p>
+        <p>
+            <span></span><a href="https://github.com/CamiloRami">CamiloRami</a>
+        </p>
+    </header>
+    <main>
+        <section>
+            <h2>Calcular media aritmética</h2>
+            <form>
+                <label for="inputMa">
+                    <span>
+                        Insertar conjunto de números
+                    </span>
+                    <input type="text" name="inputMa" id="inputMa" placeholder="Ej: `1 13 6 39 5`">
+                </label>
+                <button type="button" onclick="onclickCalcularMediaAritmetica()" >Calcular media aritmética</button>
+            </form>
+            <span id="outputMa"></span>
+        </section>
+        <section>
+            <h2>
+                Calcular mediana
+            </h2>
+            <form>
+                <label for="inputMe">
+                    <span>
+                        Insertar conjunto de números
+                    </span>
+                    <input type="text" name="inputMe" id="inputMe" placeholder="Ej: `1 13 6 39 5`">
+                </label>
+                <button type="button" onclick="onclickCalcularMediana()" >Calcular mediana</button>
+            </form>
+            <span id="outputMe"></span>
+        </section>        
+        <section>
+            <h2>
+                Calcular moda
+            </h2>
+            <form>
+                <label for="inputMo">
+                    <span>
+                        Insertar conjunto
+                    </span>
+                    <input type="text" name="inputMo" id="inputMo" placeholder="Ej: `1 13 6 39 5`">
+                </label>
+                <button type="button" onclick="onclickCalcularModa()" >Calcular moda</button>
+            </form>
+            <span id="outputMo"></span>
+        </section>
+    </main>
+    <script src="./MaMeMo.js"></script>
+</body>
+</html>
