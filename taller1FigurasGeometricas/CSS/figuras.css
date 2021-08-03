@@ -64,7 +64,7 @@ header span {
 }
 header p a {
     color: var(--blanco);
-    cursor: none;
+    /* cursor: none; */
     text-decoration: none;
 }
 

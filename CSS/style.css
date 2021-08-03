@@ -1,0 +1,91 @@
+:root {
+    /*Colores*/
+    --pomelo: #D9D0DE;
+    --blanco: #F2EFEA;
+    --berenjena: #403D58;
+    --azul: #102542;
+    --marino: #3B6064;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+
+}
+body {
+    background: #F87060;
+    background: -moz-linear-gradient(top, #F87060 0%, #F87060 50%, #51B7C5 100%);
+    background: -webkit-linear-gradient(top, #F87060 0%, #F87060 50%, #51B7C5 100%);
+    background: linear-gradient(to bottom, #F87060 0%, #F87060 40%, #51B7C5 100%);
+    width: 100vw;
+    height: 100vh;
+}
+/* header */
+header {
+    width: 100%;
+    min-height: 360px;
+    background-color: var(--pomelo);
+    display: inline-block;
+    position: absolute;
+}
+header img{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+header h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 4.4rem;
+    color: #000000;
+    margin-bottom: 15px;
+}
+header span {
+    background-image: url(../GitHub.png);
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    right: 2px;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header p {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 7px;
+}
+header p a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* listas */
+nav {
+    margin-top: 40px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+ul li {
+    list-style: none;
+    background-color: #f25e5c77;
+    padding: 5px 15px;
+    padding-top: 9px;
+    border-radius: 7px;
+}
+li a, li p{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.4rem;
+}
+

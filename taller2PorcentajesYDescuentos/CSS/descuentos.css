@@ -3,7 +3,7 @@
     --azul: #102542;
     --pomelo: #F87060;
     --blanco: #F2EFEA;
-    --gris: #CDD7D6;
+    /* --gris: #CDD7D6; */
 }
 * {
     box-sizing: border-box;
@@ -50,7 +50,7 @@ header p span {
 }
 header p a {
     color: var(--blanco);
-    cursor: none;
+    /* cursor: none; */
     text-decoration: none;
 }
 header h1 {
